@@ -1,7 +1,6 @@
 {
   "name": "mystrom2mqtt",
-  "version": "latest",
-  "image": "xdave005/mystrom2mqtt",
+  "version": "1",
   "slug": "mystrom2mqtt",
   "description": "Connect mystrom to mqtt",
   "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
