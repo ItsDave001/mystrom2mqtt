@@ -18,5 +18,7 @@ EXPOSE 8321/tcp
 
 ADD entrypoint.sh /app/
 
+RUN chmod a+x /app/entrypoint.sh
+
 ENTRYPOINT ["/app/entrypoint.sh"]
 
