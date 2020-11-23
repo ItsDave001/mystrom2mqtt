@@ -1,0 +1,24 @@
+{
+  "name": "mystrom2mqtt",
+  "version": "1",
+  "slug": "mystrom2mqtt",
+  "description": "Connect mystrom to mqtt",
+  "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
+  "startup": "application",
+  "boot": "auto",
+  "options": {
+	"broker": null,
+	"port": 1883,
+	"username": null,
+	"password": null
+  },
+  "schema": {
+	"broker": "str",
+	"port": "int",
+	"username": "str",
+	"password": "str"
+  },
+  "ports": {
+    "8321/tcp": 8321
+  }
+}
