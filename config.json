@@ -1,11 +1,12 @@
 {
   "name": "mystrom2mqtt",
-  "version": "1",
+  "version": "latest",
   "slug": "mystrom2mqtt",
   "description": "Connect mystrom to mqtt",
   "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
   "startup": "application",
   "boot": "auto",
+  "image": "xdave005/mystrom2mqtt",
   "options": {
 	"broker": null,
 	"port": 1883,
