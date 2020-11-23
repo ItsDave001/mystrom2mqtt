@@ -1,3 +1,3 @@
 #!/bin/bash
 
-exec mystrom2mqtt
+echo "Hallo Welt"
